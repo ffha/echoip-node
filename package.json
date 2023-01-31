@@ -1,0 +1,20 @@
+{
+  "name": "echoip-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ffha/echoip-node.git",
+  "author": "Alan Feng <alanfeng_2020@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@maxmind/geoip2-node": "^3.5.0",
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.16",
+    "@types/node": "^18.11.18",
+    "typescript": "^4.9.5"
+  }
+}

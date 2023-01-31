@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "outDir": "./dist",
+      "allowJs": true,
+      "target": "ES5",
+      "esModuleInterop": true,
+      "types": ["@types/express", "@types/node"]
+    },
+    "include": ["./src/**/*"]
+  }
